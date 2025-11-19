@@ -98,10 +98,6 @@ html {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
-.menu-toggle {
-    margin-left: auto;      /* << pastikan benar-benar kanan */
-}
   
   .logo img {
     width: 50px;           /* Besarkan logo */
@@ -114,6 +110,9 @@ html {
   .nav-right {
     flex: 0;
   }
+  .menu-toggle {
+    margin-left: auto;      /* << pastikan benar-benar kanan */
+    }
   
   .menu-toggle span {
     width: 18px;              /* ukuran garis lebih kecil */
@@ -374,5 +373,6 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
   }
+
 
 
