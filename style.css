@@ -82,8 +82,27 @@ html {
 }
 /* === resvonsif === */
 @media (max-width: 768px) {
+  .navbar {
+    padding: 8px 15px; 
+  }
+  .logo {
+    font-size: 11px;            
+    white-space: nowrap;        
+    max-width: 140px;          
+    overflow: hidden;           
+  }
   .nav-right {
     flex: 0;
+  }
+  .menu-toggle {
+    display: flex !important;   
+    flex-direction: column;
+    position: relative;
+    right: 0;
+    margin-left: auto;          
+  }
+  menu-toggle span {
+    background-color: #003366;
   }
   .nav-links {
     position: absolute;
@@ -102,18 +121,7 @@ html {
   .nav-links.active {
     top: 60px;
   }
-  .menu-toggle {
-    margin-left: 10px;
-  }
-  .navbar {
-    padding: 10px 25px;
-  }
-  .logo {
-    font-size: 12px;       
-    white-space: nowrap;   
-    max-width: 160px;      
-    overflow: hidden;     
-  }
+  
   .beranda {
     min-height: 90vh;
     padding: 130px 20px 40px;
@@ -348,6 +356,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
 }
+
 
 
 
