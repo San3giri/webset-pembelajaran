@@ -103,20 +103,16 @@ html {
     top: 60px;
   }
   .menu-toggle {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    margin-left: auto;
-    z-index: 1100;
+    margin-left: 10px;
   }
   .navbar {
     padding: 10px 25px;
   }
   .logo {
-    font-size: 14px;
-    white-space: normal;     /* boleh turun baris */
-    line-height: 1.1;
-    max-width: 140px;
+    font-size: 12px;       
+    white-space: nowrap;   
+    max-width: 160px;      
+    overflow: hidden;     
   }
   .beranda {
     min-height: 90vh;
@@ -352,6 +348,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
 }
+
 
 
 
