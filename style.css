@@ -108,7 +108,7 @@ html {
     font-size: 20px;
   }
   .beranda {
-    min-height: 90hv;
+    min-height: 90vh;
     padding: 130px 20px 40px;
     background-color: center;
   }
@@ -137,7 +137,7 @@ li {
 /* === Section Beranda === */
 .beranda {
   background: url('https://i.ibb.co.com/dsDksQ9n/Pngtree-school-learning-education-background-1112597-1.jpg') no-repeat center top/cover;
-  min-height: 100vh;
+  min-height: 90vh;
   font-size: 30px;
   display: flex;
   flex-direction: column;
@@ -165,7 +165,6 @@ li {
 
 .materi {
   margin-top: 0;
-  padding-top: 80px;
   background-color: #b1b0b081;
   color: #003366;
   min-height: auto;
@@ -211,7 +210,6 @@ li {
   padding-top: 80px;
   background-color: #b1b0b081;
   color: #003366;
-  min-width: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -274,7 +272,6 @@ li {
   padding-top: 50px;
   background-color: #b1b0b081;
   color: #003366;
-  min-width: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
