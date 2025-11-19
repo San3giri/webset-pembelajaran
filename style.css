@@ -92,10 +92,10 @@ html {
     overflow: hidden;           
   }
   .logo img {
-    width: 45px;           /* Besarkan logo */
+    width: 80px;           /* Besarkan logo */
     }
   .logo-text {
-    font-size: 20px;       /* Besarkan teks */
+    font-size: 50px;       /* Besarkan teks */
     font-weight: bold;
   }
   
@@ -367,6 +367,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
 }
+
 
 
 
