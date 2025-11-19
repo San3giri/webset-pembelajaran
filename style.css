@@ -82,10 +82,13 @@ html {
 }
 /* === resvonsif === */
 @media (max-width: 768px) {
+  .nav-right {
+    flex: 0;
+  }
   .nav-links {
     position: absolute;
     display: flex;
-    top: -300px;
+    top: -400px;
     left: 0;
     width: 100%;
     background-color: #cfe9ff;
@@ -93,25 +96,28 @@ html {
     text-align: center;
     font-size; 12;
     gap: 15px;
-    padding: 4px 0;
+    padding: 10px;
     transition: top 0.4s ease;
   }
   .nav-links.active {
-    display: flex;
+    top: 60px;
   }
   .menu-toggle {
-    display: block;
-    cursor: pointer;
-    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: auto;
+    z-index: 1100;
   }
   .navbar {
     padding: 10px 25px;
   }
   .logo {
-    font-size: 13px;
-  }
-  .logo img {
-    width: 20px;
+    font-size: 16px;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .beranda {
     min-height: 90vh;
@@ -347,6 +353,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
 }
+
 
 
 
