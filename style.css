@@ -15,7 +15,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1px 50px;
+  padding: 8px 15px;       /* << dari 50px jadi 15px */
   position: fixed;
   top: 0;
   left: 0;
@@ -23,6 +23,7 @@ html {
   box-shadow: 0 2px 10px rgba(0,0,0,0.15);
   border-bottom: 3px solid #007bff;
 }
+
 /* === logo kiri === */
 .logo {
  color: #003366;
@@ -377,3 +378,4 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
   }
+
