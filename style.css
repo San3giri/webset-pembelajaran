@@ -113,9 +113,10 @@ html {
     padding: 10px 25px;
   }
   .logo {
-    font-size: 16px;
-    max-width: 150px;
-    white-space: nowrap;
+    font-size: 14px;
+    max-width: 140px;
+    white-space: normal;
+    line-height: 1.1;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -353,6 +354,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
 }
+
 
 
 
