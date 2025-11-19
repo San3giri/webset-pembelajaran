@@ -103,8 +103,9 @@ html {
     gap: 4px;
     cursor: pointer;
     z-index: 2000;         /* pastikan tampil di atas */
-    margin-left: 10px;
+    margin-left: auto !important;
   }
+
 
   .menu-toggle span {
     width: 24px;           /* lebih besar biar kelihatan */
@@ -383,6 +384,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
   }
+
 
 
 
