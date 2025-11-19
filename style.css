@@ -87,7 +87,6 @@ html {
   }
   .nav-links {
     position: absolute;
-    display: none;
     top: -300px;
     left: 0;
     width: 100%;
@@ -350,4 +349,5 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
 }
+
 
