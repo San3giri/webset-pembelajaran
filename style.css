@@ -90,8 +90,9 @@ html {
     font-size: 16px; 
     gap: 5px;
     white-space: nowrap;        
-    max-width: 140px;          
-    overflow: hidden;           
+    max-width: 200px;          
+    overflow: hidden; 
+    text-overflow: ellipsis;
   }
   .logo img {
     width: 50px;           /* Besarkan logo */
@@ -109,11 +110,12 @@ html {
     flex-direction: column;
     gap: 4px;
     cursor: pointer;
+    align-items: flex-end;
     z-index: 9999;
   }
   .menu-toggle span {
     background-color: #003366;
-    width: 28px;
+    width: 22px;
     height: 3px;
     border-radius: 3px;
   }
@@ -369,6 +371,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
 }
+
 
 
 
