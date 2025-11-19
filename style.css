@@ -91,6 +91,14 @@ html {
     max-width: 140px;          
     overflow: hidden;           
   }
+  .logo img {
+    width: 45px;           /* Besarkan logo */
+    }
+  .logo-text {
+    font-size: 20px;       /* Besarkan teks */
+    font-weight: bold;
+  }
+  
   .nav-right {
     flex: 0;
   }
@@ -98,13 +106,14 @@ html {
     display: flex !important;   
     flex-direction: column;
     gap: 4px;
-    margin-left: auto;
+    cursor: pointer;
     z-index: 9999;
   }
   .menu-toggle span {
     background-color: #003366;
     width: 28px;
-    border-radius: 2px;
+    height: 3px;
+    border-radius: 3px;
   }
   .nav-links {
     position: absolute;
@@ -358,6 +367,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
 }
+
 
 
 
