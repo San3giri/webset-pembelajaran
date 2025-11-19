@@ -82,71 +82,66 @@ html {
 }
 /* === resvonsif === */
 @media (max-width: 768px) {
-
- .navbar {
-    padding: 8px 15px;    /* ← aman untuk HP */
-}
-
-.nav-right {
-    flex-shrink: 0;       /* ← cegah menu dorong logo */
-}
-
-.menu-toggle {
-    flex-shrink: 0;       /* ← cegah ikon hambuger dorong logo */
-}
-  
   .navbar {
-    padding: 5px 15px;
-    height: 55px;               /* BETULKAN dari: heigh */
     display: flex;
-    justify-content: space-between;
     align-items: center;
-  }
-
-  .logo {
-    font-size: 18px;
-    gap: 6px;
-    white-space: nowrap;
-    flex-shrink: 0;       /* ← cegah mengecil */
+    justify-content: space-between;
+    padding: 6px 12px;
+    height: 55px;
   }
   
-
-  /* === MENU TOGGLE BARU — kecil & rapat ke kanan === */
+  .logo {
+    font-size: 16px; 
+    gap: 5px;
+    white-space: nowrap;        
+    max-width: 200px;          
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
+  .logo img {
+    width: 50px;           /* Besarkan logo */
+    }
+  .logo-text {
+    font-size: 30px;       /* Besarkan teks */
+    font-weight: bold;
+  }
+  
+  .nav-right {
+    flex: 0;
+  }
   .menu-toggle {
     display: flex !important;
     flex-direction: column;
-    gap: 3px;
+    gap: 3px;                 /* jarak garis lebih kecil */
     cursor: pointer;
     z-index: 9999;
-    align-items: flex-end;      /* dorong garis ke kanan */
-  }
+    align-items: flex-end;    /* geser ke kanan */
+}
 
-  .menu-toggle span {
-    width: 18px;                /* lebih kecil */
-    height: 2px;                /* lebih tipis */
+.menu-toggle span {
+    width: 18px;              /* ukuran garis lebih kecil */
+    height: 2px;              /* lebih tipis */
     background-color: #003366;
     border-radius: 2px;
-  }
-
-  /* === NAV LINKS (slide menu) === */
+}
+  
   .nav-links {
     position: absolute;
-    top: -400px;
+    display: flex;
+    top: -300px;
     left: 0;
     width: 100%;
     background-color: #cfe9ff;
     flex-direction: column;
     text-align: center;
+    font-size: 14px;
     gap: 15px;
     padding: 10px;
     transition: top 0.4s ease;
   }
-
   .nav-links.active {
     top: 60px;
   }
-
-
   
   .beranda {
     min-height: 90vh;
@@ -381,26 +376,4 @@ li {
 .section {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
