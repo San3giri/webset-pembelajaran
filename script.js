@@ -1,7 +1,4 @@
 // === MENU TOGGLE ===
-function toggleMenu(){
-  document.querySelector('.nav-links').classList.toggle('active');
-}
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 
@@ -27,3 +24,4 @@ function reveal() {
     }
   }
 }
+
