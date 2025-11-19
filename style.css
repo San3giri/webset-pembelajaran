@@ -82,34 +82,44 @@ html {
   transition: 0.3s;
 }
 /* === resvonsif === */
-@media (max-width: 768px) {
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 6px 12px;
-    height: 55px;
-  }
   
+  @media (max-width: 768px) {
+
+  .navbar {
+    padding: 8px 12px;
+  }
+
   .logo {
     font-size: 18px;
-    max-width: 65%;         /* << supaya tidak nabrak toggle */
+    max-width: 70%;        /* tidak mepet kanan */
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-}
-  
-  .logo img {
-    width: 50px;           /* Besarkan logo */
-    }
-  .logo-text {
-    font-size: 30px;       /* Besarkan teks */
-    font-weight: bold;
   }
-  
+
+  .menu-toggle {
+    display: flex !important;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    z-index: 2000;         /* pastikan tampil di atas */
+    margin-left: 10px;
+  }
+
+  .menu-toggle span {
+    width: 24px;           /* lebih besar biar kelihatan */
+    height: 3px;
+    background-color: #003366;
+    border-radius: 2px;
+  }
+
+  /* pastikan nav-right tidak menghilangkan toggle */
   .nav-right {
-    flex: 0;
+    display: flex;
+    align-items: center;
   }
+  
+
   .menu-toggle {
     margin-left: auto;      /* << pastikan benar-benar kanan */
     }
@@ -373,6 +383,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
   }
+
 
 
 
