@@ -92,13 +92,17 @@ html {
   }
   
   .logo {
-    font-size: 16px; 
-    gap: 5px;
-    white-space: nowrap;        
-    max-width: 200px;          
-    overflow: hidden; 
+    font-size: 18px;
+    max-width: 65%;         /* << supaya tidak nabrak toggle */
+    overflow: hidden;
     text-overflow: ellipsis;
-  }
+    white-space: nowrap;
+}
+
+.menu-toggle {
+    margin-left: auto;      /* << pastikan benar-benar kanan */
+}
+  
   .logo img {
     width: 50px;           /* Besarkan logo */
     }
@@ -110,16 +114,8 @@ html {
   .nav-right {
     flex: 0;
   }
-  .menu-toggle {
-    display: flex !important;
-    flex-direction: column;
-    gap: 3px;                 /* jarak garis lebih kecil */
-    cursor: pointer;
-    z-index: 9999;
-    align-items: flex-end;    /* geser ke kanan */
-}
-
-.menu-toggle span {
+  
+  .menu-toggle span {
     width: 18px;              /* ukuran garis lebih kecil */
     height: 2px;              /* lebih tipis */
     background-color: #003366;
@@ -378,4 +374,5 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
   }
+
 
