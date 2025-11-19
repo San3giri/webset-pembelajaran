@@ -114,11 +114,9 @@ html {
   }
   .logo {
     font-size: 14px;
-    max-width: 140px;
-    white-space: normal;
+    white-space: normal;     /* boleh turun baris */
     line-height: 1.1;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    max-width: 140px;
   }
   .beranda {
     min-height: 90vh;
@@ -354,6 +352,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
 }
+
 
 
 
