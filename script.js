@@ -1,10 +1,11 @@
 // === MENU TOGGLE ===
-const menuToggle = document.querySelector('.menu-toggle');
-const navLinks = document.querySelector('.nav-links');
+const toggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
 
-menuToggle.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
+toggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
 });
+
 
 // === ANIMASI SCROLL ===
 window.addEventListener('scroll', reveal);
@@ -24,4 +25,5 @@ function reveal() {
     }
   }
 }
+
 
