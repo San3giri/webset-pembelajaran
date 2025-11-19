@@ -83,6 +83,18 @@ html {
 /* === resvonsif === */
 @media (max-width: 768px) {
 
+ .navbar {
+    padding: 8px 15px;    /* ← aman untuk HP */
+}
+
+.nav-right {
+    flex-shrink: 0;       /* ← cegah menu dorong logo */
+}
+
+.menu-toggle {
+    flex-shrink: 0;       /* ← cegah ikon hambuger dorong logo */
+}
+  
   .navbar {
     padding: 5px 15px;
     height: 55px;               /* BETULKAN dari: heigh */
@@ -370,6 +382,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
 }
+
 
 
 
