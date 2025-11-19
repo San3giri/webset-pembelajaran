@@ -85,6 +85,7 @@ html {
   
   .nav-links {
     position: absolute;
+    display: none;
     top: -300px;
     left: 0;
     width: 100%;
@@ -96,10 +97,12 @@ html {
     transition: top 0.4s ease;
   }
   .nav-links.active {
-    top: 60px;
+    display: flex;
   }
   .menu-toggle {
-    display: flex;
+    display: block;
+    cursor: pointer;
+    font-size: 24px;
   }
   .navbar {
     padding: 10px 25px;
