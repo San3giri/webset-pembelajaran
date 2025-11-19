@@ -83,10 +83,12 @@ html {
 /* === resvonsif === */
 @media (max-width: 768px) {
   .navbar {
-    padding: 8px 15px; 
+    padding: 5px 15px;
+    heigh: 50px;
   }
   .logo {
-    font-size: 11px;            
+    font-size: 16px; 
+    gap: 5px;
     white-space: nowrap;        
     max-width: 140px;          
     overflow: hidden;           
@@ -367,6 +369,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
 }
+
 
 
 
