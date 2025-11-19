@@ -106,19 +106,21 @@ html {
     flex: 0;
   }
   .menu-toggle {
-    display: flex !important;   
+    display: flex !important;
     flex-direction: column;
-    gap: 4px;
+    gap: 3px;                 /* jarak garis lebih kecil */
     cursor: pointer;
-    align-items: flex-end;
     z-index: 9999;
-  }
-  .menu-toggle span {
+    align-items: flex-end;    /* geser ke kanan */
+}
+
+.menu-toggle span {
+    width: 18px;              /* ukuran garis lebih kecil */
+    height: 2px;              /* lebih tipis */
     background-color: #003366;
-    width: 22px;
-    height: 3px;
-    border-radius: 3px;
-  }
+    border-radius: 2px;
+}
+  
   .nav-links {
     position: absolute;
     display: flex;
@@ -371,6 +373,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
 }
+
 
 
 
