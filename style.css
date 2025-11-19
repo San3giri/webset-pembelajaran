@@ -170,6 +170,7 @@ li {
 }
 /* === semua Section === */
 .section {
+  padding-top: 100px;
   min-height: 100vh;
   padding: 120px 20px 80px;
   text-align: center;
@@ -383,6 +384,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
   }
+
 
 
 
