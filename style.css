@@ -88,14 +88,13 @@ html {
   .navbar {
     padding: 8px 12px;
   }
-
   .logo {
-    font-size: 18px;
-    max-width: 70%;        /* tidak mepet kanan */
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+  max-width: 65%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   }
+    
 
   .menu-toggle {
     display: flex !important;
@@ -384,6 +383,7 @@ li {
   border-bottom: 3px solid #cce0ff;
   margin-bottom: 0;
   }
+
 
 
 
